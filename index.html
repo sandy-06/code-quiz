@@ -1,34 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles"
-    <title>Code Quiz</title>
+    <link href="style.css" rel="stylesheet" <title>Code Quiz</title>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            
-        </div>
+        <div class="container1">
+            <div class="score">
 
+            </div>
+            <div class=timer>
+            </div>
+        </div>
     </header>
     <main>
-        <div>
+        <!--first page-->
+        <div class="start">
             <h1>Coding Quiz Challenge</h1>
             <p>Try to answer the following Javascript code questions in the time limit. Incorrect
-                answers will penalize you by 15 seconds. Your high score will be saved so you can 
+                answers will penalize you by 15 seconds. Your high score will be saved so you can
                 compete with your friends.
             </p>
+            <button id="start-btn" class="start-btn btn">Start</button>
+        </div>
+        <!-- question pages-->
+        <div class="container">
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                    <button id="btn1">solved</button>
+                </div>
+            </div>
+            <!-- all done-->
+            <div class="container">
+                <div class="done" id="hide">
+                    <h2>All Done!</h2>
+                    <h3>Your final score is </h3>
+                    <h3>Enter initials
+                        <button id="input-intials">" "</button>
+                        <button id="submit">Submit</button>
+                    </h3>
+                </div>
+            </div>
 
+            <!--High Scores/restart-->
+            <div class="container">
+                <div class="highscores" id="hide">
+                    <h2>Highscores</h2>
+                    <button id="goback">Go Back</button>
+                    <button Id="clear">Clear HighScores</button>
+                </div>
 
+            </div>
         </div>
 
     </main>
     <footer>
-        
+
     </footer>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
