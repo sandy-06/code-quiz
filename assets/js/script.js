@@ -1,26 +1,26 @@
-
-function countdown() {
-    var timeLeft = 100;
-
+var time= 100;
+let timer = document.getElementById("timer");
+let questions = ["Inside which HTML element do we put the JavaScript"]
+ 
     // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
-    var timeInterval = setInterval(function () {
-        // As long as the `timeLeft` is greater than 1
-        if (timeLeft > 1) {
-            // Set the `textContent` of `timerEl` to show the remaining seconds
-            timerEl.textContent = timeLeft + ' seconds remaining';
-            // Decrement `timeLeft` by 1
-            timeLeft--;
-        } else if (timeLeft === 1) {
-            // When `timeLeft` is equal to 1, rename to 'second' instead of 'seconds'
-            timerEl.textContent = timeLeft + ' second remaining';
-            timeLeft--;
-        } else {
-            // Once `timeLeft` gets to 0, set `timerEl` to an empty string
-            timerEl.textContent = '';
-            // Use `clearInterval()` to stop the timer
-            clearInterval(timeInterval);
-            // Call the `displayMessage()` function
-            displayMessage();
+    var timeInterval = setInterval(function () { time--
+      timer.textContent = time;
+        if(time <= 0)  {
+     end() 
         }
+        
+},1000)
+function end(){
+    clearInterval(timer)
+
+
     
-}
+ < div id = "question" > Question < /div> <
+     div id = "answer-buttons"
+ class = "btn-grid" >
+     <
+     button class = "btn" > Answer 1 < /button> <
+     button class = "btn" > Answer 2 < /button> <
+     button class = "btn" > Answer 3 < /button> <
+     button class = "btn" > Answer 4 < /button> <
+     button id = "btn1" > solved < /button   

@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" <title>Code Quiz</title>
-</head>
+    <link href="./assets/css/style.css" rel="stylesheet" </head>
 
 <body>
     <header>
-        <div class="container1">
-            <div class="score">
 
-            </div>
-            <div class=timer>
-            </div>
+        <div class="score">
+            <h4>high score</h4>
         </div>
+
+        <div class=timer>
+            <h4 id = timer>timer</h4>
+        </div>
+
+
     </header>
     <main>
         <!--first page-->
         <div class="start">
-            <h1>Coding Quiz Challenge</h1>
-            <p>Try to answer the following Javascript code questions in the time limit. Incorrect
+            <h1 id="title">Coding Quiz Challenge</h1>
+            <p id="rules">Try to answer the following Javascript code questions in the time limit. Incorrect
                 answers will penalize you by 15 seconds. Your high score will be saved so you can
                 compete with your friends.
             </p>
@@ -31,14 +33,7 @@
         <!-- question pages-->
         <div class="container">
             <div id="question-container" class="hide">
-                <div id="question">Question</div>
-                <div id="answer-buttons" class="btn-grid">
-                    <button class="btn">Answer 1</button>
-                    <button class="btn">Answer 2</button>
-                    <button class="btn">Answer 3</button>
-                    <button class="btn">Answer 4</button>
-                    <button id="btn1">solved</button>
-                </div>
+                
             </div>
             <!-- all done-->
             <div class="container">
