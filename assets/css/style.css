@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
 }
 .score {
   position: absolute;
@@ -14,10 +15,16 @@ body {
 }
 
 .start {
-  margin-top: 50px;
+  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-text-align: center;
-  
+  text-align: center;
+}
+
+#start-btn {
+    background-color: rgb(218, 189, 245);
+}
+.hide{
+  display: none;
 }
