@@ -23,7 +23,7 @@
     </header>
     <main>
         <!--first page-->
-        <div class="start" id= "classStart">
+        <div class="start" id= "class-startDocument">
             <h1 id="title">Coding Quiz Challenge</h1>
             <p id="rules">Try to answer the following Javascript code questions in the time limit.</p>
             <p id="rules">Incorrect answers will penalize you by 15 seconds. Your high score will </p>
@@ -34,6 +34,18 @@
         <!-- question pages-->
         <div class="container">
             <div id="question-container" class="hide">
+                <div >
+                    <h2 id="question"></h2>
+                </div>
+                <div id=answers>
+                    <button id="ans1" class="ans1-btn btn"></button>
+                    <button id="ans2" class="ans2-btn btn"></button>
+                    <button id="ans3" class="ans3-btn btn"></button>
+                    <button id="ans4" class="ans4-btn btn"></button>
+                </div>
+                <div id="result">
+                    <h4></h4>
+                </div>
 
             </div>
             <!-- all done-->
@@ -66,4 +78,3 @@
     <script src="./assets/js/script.js"></script>
 </body>
 
-</html>
