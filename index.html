@@ -32,10 +32,10 @@
             <button id="start-btn" class="start-btn btn">Start</button>
         </div>
         <!-- question pages-->
-        <div class="container">
-            <div id="question-container" class="hide">
-                <div >
-                    <h2 id="question"></h2>
+        <div class="container-questions">
+            <div id="question-container">
+                <div id="question">
+                    <h2 id="h2"></h2>
                 </div>
                 <div id=answers>
                     <button id="ans1" class="ans1-btn btn"></button>
@@ -43,26 +43,26 @@
                     <button id="ans3" class="ans3-btn btn"></button>
                     <button id="ans4" class="ans4-btn btn"></button>
                 </div>
-                <div id="result">
-                    <h4></h4>
+                <div>
+                    <h4 id="result"></h4>
                 </div>
 
             </div>
             <!-- all done-->
-            <div class="container">
-                <div class="done" id="hide">
-                    <h2>All Done!</h2>
-                    <h3>Your final score is </h3>
+            <div class="scores">
+                <div id="score" class="hide">
+                    <h2 >All Done!</h2>
+                    <h3 id="final"> </h3>
                     <h3>Enter initials
-                        <button id="input-intials">" "</button>
+                        <input> </input>
                         <button id="submit">Submit</button>
                     </h3>
                 </div>
             </div>
 
             <!--High Scores/restart-->
-            <div class="container">
-                <div class="highscores" id="hide">
+            <div class="restart" >
+                <div id= "end" class="highscores hide" >
                     <h2>Highscores</h2>
                     <button id="goback">Go Back</button>
                     <button Id="clear">Clear HighScores</button>

@@ -25,9 +25,7 @@ body {
 #start-btn {
     background-color: rgb(218, 189, 245);
 }
-.hide{
-  display: none;
-}
+
 
 #question-container {
   margin-top: 200px;
@@ -36,7 +34,7 @@ body {
   width: 100%;
   text-align: center;
 }
-.done {
+.scores {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -44,13 +42,16 @@ body {
   text-align: center;
 }
 
-.highscores {
+.restart {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   text-align: center;
 }
-#hide {
+.hide{
   display: none;
+}
+.submit {
+  background-color: blueviolet;
 }
