@@ -4,7 +4,7 @@ let timeLeft = 100;
 let questionIndex = 0;
 var result = document.getElementById("result");
 var timeInterval;
-var highScore=[];
+var highScore = [];
 document.getElementById("start-btn").addEventListener("click", function () {
         document.getElementById("class-startDocument").style.display = "none";
         // document.getElementById("t").style.display = "none";
@@ -148,14 +148,26 @@ function endGame() {
 
     //all done page
     document.getElementById("final").innerHTML = "Your score is " + timeLeft + ".";
-   highScore
-   initials: score;
+    highScore
+    initials: score;
 
 
     document.getElementById("submit").addEventListener("click", function () {
-                document.getElementById("score").style.display = "none";
+        document.getElementById("score").style.display = "none";
 
-                document.getElementById("end").classList.remove("hide");
+        document.getElementById("end").classList.remove("hide");
     });
-    
+
+    document.getElementById("goback").addEventListener("click", function() {
+       timeLeft = 100;
+       questionIndex = 0;
+       startGame();
+    });
+    document.getElementById("clear").addEventListener("click", function(){
+        endGameOver();
+    })
+
+}
+function endGameOver(){
+    document.getElementById("main").style.display = "none";
 }
