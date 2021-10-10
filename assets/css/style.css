@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
+}
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.start {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#start-btn {
+    background-color: rgb(218, 189, 245);
+}
+
+
+#question-container {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.scores {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.restart {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.hide{
+  display: none;
+}
+.submit {
+  background-color: blueviolet;
+}

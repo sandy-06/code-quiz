@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link href="./assets/css/style.css" rel="stylesheet" </head>
+    <link href="assets/js/script.js">
 
+<body>
     <header>
 
+        <div class="score">
+            <h4>high score</h4>
+        </div>
+
+        <div class=timer>
+            <h4 id=timer>timer</h4>
+        </div>
+
+
     </header>
-    <main>
+    <main id="main">
+        <!--first page-->
+        <div class="start" id= "class-startDocument">
+            <h1 id="title">Coding Quiz Challenge</h1>
+            <p id="rules">Try to answer the following Javascript code questions in the time limit.</p>
+            <p id="rules">Incorrect answers will penalize you by 15 seconds. Your high score will </p>
+            <p id="rules">be saved so you can compete with your friends.</p>
+            </p>
+            <button id="start-btn" class="start-btn btn">Start</button>
+        </div>
+        <!-- question pages-->
+        <div class="container-questions">
+            <div id="question-container">
+                <div id="question">
+                    <h2 id="h2"></h2>
+                </div>
+                <div id=answers>
+                    <button id="ans1" class="ans1-btn btn"></button>
+                    <button id="ans2" class="ans2-btn btn"></button>
+                    <button id="ans3" class="ans3-btn btn"></button>
+                    <button id="ans4" class="ans4-btn btn"></button>
+                </div>
+                <div>
+                    <h4 id="result"></h4>
+                </div>
+
+            </div>
+            <!-- all done-->
+            <div class="scores">
+                <div id="score" class="hide">
+                    <h2 >All Done!</h2>
+                    <h3 id="final"> </h3>
+                    <h3>Enter initials
+                        <input> </input>
+                        <button id="submit">Submit</button>
+                    </h3>
+                </div>
+            </div>
+
+            <!--High Scores/restart-->
+            <div class="restart" >
+                <div id= "end" class="highscores hide" >
+                    <h2>Highscores</h2>
+                    <button id="goback">Go Back</button>
+                    <button Id="clear">Clear HighScores</button>
+                </div>
+
+            </div>
+        </div>
 
     </main>
     <footer>
-        
-    </footer>
 
-    
+    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
-</html>
+
