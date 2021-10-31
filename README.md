@@ -18,6 +18,7 @@ THEN I can save my initials and score
 
 useage
 deployed at https://sandy-06.github.io/code-quiz/
+https://github.com/sandy-06/code-quiz
 ![alt text](./assets/images/Screenshot195418.png)
 ![alt text](./assets/images/Screenshot195522.png)
 
