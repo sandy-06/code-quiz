@@ -35,4 +35,4 @@ credits
 The questions for my quiz came from W3Schools Quizzes javaScript Quiz
 https://www.w3schools.com/quiztest/default.asp
 
-
+Sandra Sanders
